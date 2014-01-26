@@ -1,0 +1,20 @@
+development:
+  adapter: postgresql
+  database: stackgame_dev
+  username: mdsg
+  password:
+  host: localhost
+
+test:
+  adapter: postgresql
+  database: stackgame_test
+  username: mdsg
+  password:
+  host: localhost
+
+production:
+  adapter: postgresql
+  database: stackgame_live
+  username: mdsg
+  password:
+  host:
